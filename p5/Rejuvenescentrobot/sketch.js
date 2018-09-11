@@ -26,6 +26,7 @@ ellipse(270,220,20,20);
 fill('red');
 rect(190,250,80,30);
 
+
 //tooth
 if (mouseIsPressed){
   strokeWeight(0);
