@@ -43,11 +43,13 @@ if (mouseIsPressed){
 rect(215,252,15,15);
 rect(230,252,15,15);
 
+
+//hairs
 if (mouseIsPressed){
   strokeWeight(0);
   } else {
   strokeWeight(5);
-//hairs
+
 strokeWeight(5);
 line(200,155,200,180);
 line(230,155,230,190);
