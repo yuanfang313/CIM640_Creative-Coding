@@ -87,14 +87,19 @@ function draw(){
 
   //instruction;
   fill(0);
-  textSize(30);
-  text("Instruction", 300, 850);
+
+  textSize(35);
+  text("The Dynamic Demonstration of Dougong", 300, 840);
+
+  fill(80);
+  textSize(28);
+  text("Instruction", 300, 900);
 
 
 
   textSize(18);
-  text("--Click to play, stop, check the frames forward or backward and select the speed;", 300, 890);
-  text("--Press CONTROL to reset the demonstration;", 300, 920);
+  text("--Click to play, stop, check the frames forward or backward and select the speed;", 300, 930);
+  text("--Press CONTROL to reset the demonstration;", 300, 950);
 
 
 
