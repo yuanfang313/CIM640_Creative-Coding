@@ -3,7 +3,7 @@
 ## The Dynamic Demonstration of Dougong
 
 ### Motivation: 
-I made it to as a part of tutorial to facilitate learning, to help people see through the structure of Dougong.
+I made it as a part of tutorial to facilitate learning, to help people see through the structure of Dougong.
 
 ### Inputs: 
 mousePressed, keyPressed;
