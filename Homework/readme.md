@@ -2,5 +2,6 @@
 
 ## [Homework](/Homework)
 
-* [Character](/Homework/Character)
-* [Impossible App](/Homework/0828%20Impossible%20APP_3D%20Dictionary%20of%20Everything.jpg)
+* [-MyCharacter_week5](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-MyCharacter_week5/)
+* [-MyCharacter](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-MyCharacter/)
+* [Impossible App](https://github.com/yuanfang313/CIM640_Creative-Coding/blob/master/Homework/-0828%20Impossible%20APP.jpg)
