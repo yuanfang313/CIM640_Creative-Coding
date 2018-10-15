@@ -85,17 +85,27 @@ function draw(){
 
   image(frameArray[currentFrame], 300, 50);
 
+  //instruction;
+  fill(0);
+  textSize(30);
+  text("Instruction", 300, 850);
+
+
+
+  textSize(18);
+  text("--Click to play, stop, check the frames forward or backward and select the speed;", 300, 890);
+  text("--Press CONTROL to reset the demonstration;", 300, 920);
+
+
+
   if(millis() - prevMillis > interval && state == "play"){
     currentFrame++;
     prevMillis = millis();
-
   }
 
   if(currentFrame > frameAmounts - 1){
     currentFrame = 0;
   }
-
-
 
   for(var keys in controls){
 
@@ -104,6 +114,7 @@ function draw(){
       fill(255);
       // text(keys, controls[keys][0], controls[keys][1] + 110);
       text("speed:", 920, 725);
+
 
 //buttoms;
       noStroke();
