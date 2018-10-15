@@ -1,8 +1,8 @@
 var frameAmounts = 4;
 var frameArray = [];
-
 var currentFrame = 0;
-var interval = 2000;
+
+var interval = 1000;
 var prevMillis = 0;
 
 var interval2 = 500;
@@ -65,54 +65,40 @@ function draw(){
  //
  // ellipse(counter, height/2, 20,20);
 
- ellipse(mouseX,mouseY,10,10);
+ // ellipse(mouseX,mouseY,10,10);
 
  for(var keys in controls){
    fill(controls[keys][3]);
    rect(controls[keys][0], controls[keys][1], controls[keys][2], controls[keys][2]);
    text(keys, controls[keys][0], controls[keys][1] - 10);
 
-   if(mouseX > controls[keys][0] && mouseX < controls[keys][0] + controls[keys][2] && mouseY > controls[keys][1] && mouseY < controls[keys][1] + controls[keys][2]){
+   if(mouseX > controls[keys][0] && mouseX < controls[keys][0] + controls[keys][2] &&
+     mouseY > controls[keys][1] && mouseY < controls[keys][1] + controls[keys][2]){
      fill(127,200);
      rect(controls[keys][0], controls[keys][1], controls[keys][2], controls[keys][2]);
 
-     state = keys;
+     // state = keys;
    }
  }
 
 }
 
-function mousePressed(){
- for(var keys in controls){
-
-   if(mouseX > controls[keys][0] && mouseX < controls[keys][0] + controls[keys][2] && mouseY > controls[keys][1] && mouseY < controls[keys][1] + controls[keys][2]){
-
-     state = keys;
-
-   }
-
- }
-}
 function mousePressed(){
 
   for(var keys in controls){
-
-    if(mouseX > controls[keys][0] && mouseX < controls[keys][0] + controls[keys][2]
-      && mouseY > controls[keys][1] && mouseY < controls[keys][1] + controls[keys][2]){
-
+    if(mouseX > controls[keys][0] && mouseX < controls[keys][0] + controls[keys][2] &&
+       mouseY > controls[keys][1] && mouseY < controls[keys][1] + controls[keys][2]){
         state = keys;
   // console.log(state);
   if(state == "forward"){
   currentFrame++;
   if(currentFrame >= frameArray.length()){
     currentFrame = 0;
-  }
-  } else if(state = "back"){
+  }} else if(state == "back"){
   currentFrame--;
   if(currentFrame < 0){
     currentFrame = frameArray.length-1;
-  }
-  }
+  }}
       }
   }
 }

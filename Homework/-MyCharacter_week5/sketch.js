@@ -29,8 +29,8 @@ function preload() {
 
 function setup() {
 
-danButton = createButton("Day and Night");
-danButton.position(300,100);
+danButton = createButton("The magical buttom of Jerry");
+danButton.position(50,310);
 
 danButton.mousePressed(function(){
   if(sunShow == false){
@@ -43,7 +43,7 @@ danButton.mousePressed(function(){
 });
 
 selection = createSelect();
-selection. position(300, 130);
+selection. position(50, 460);
 
 selection.option("01");
 selection.option("02");
@@ -96,9 +96,30 @@ curImage = moon1;
 function draw() {
   createCanvas(2024, 1500);
 background(204);
+
+
+
+
 fill(r, g, b);
 rect(rectX, rectY, rectSize, rectSize);
 imageMode(CENTER);
+
+textFont("Arial");
+textSize(30);
+fill(0);
+text("Tom", 870, 660);
+text("Jerry", 870, 240);
+
+textSize(15);
+text("Moon Jerry is 5 years old and he has a magical buttom in", 50,270);
+text("his mind that he can change himself to a sun with one click!", 50,290);
+text("Moon Tom is Jerry's Dad, and the world of adults is just not that easy.",50,400);
+text("In order to become a sun, he has to change gradually.", 50, 420);
+text("And the process is full of panic!", 50, 440);
+textSize(20);
+text("Welcom to the world of adults!",680,310);
+text("You can click to feel the color of panic!", 680, 340);
+
 
 if(sunShow == true){
   image(sun, 900, 150, sun.width/2, sun.width/2);
