@@ -11,3 +11,5 @@
 * Target Audiences: People studying or interested in Chinese Traditional Architecture.
 
 * Where to display: Maybe beside a video tutorial about the structure of Chinese Traditional Architecture.
+
+![display](https://github.com/yuanfang313/CIM640_Creative-Coding/blob/master/Homework/-Midterm/Midterm_display.png)
