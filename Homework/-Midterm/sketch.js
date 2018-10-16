@@ -86,20 +86,23 @@ function draw(){
   image(frameArray[currentFrame], 300, 50);
 
   //instruction;
+
+  fill(255);
+  rect(300, 800, 800, 270);
   fill(0);
 
-  textSize(35);
-  text("The Dynamic Demonstration of Dougong", 300, 840);
+  textSize(30);
+  text("The Dynamic Demonstration of Dougong (斗拱)", 350, 840);
+  textSize(18);
+  text("* Dougong is a unique structural element of interlocking wooden brackets, one", 350, 890);
+  text("of the most important elements in traditional Chinese architecture.", 350, 915);
 
   fill(80);
   textSize(28);
-  text("Instruction", 300, 900);
-
-
-
+  text("Instruction", 350, 980);
   textSize(18);
-  text("--Click to play, stop, check the frames forward or backward and select the speed;", 300, 930);
-  text("--Press CONTROL to reset the demonstration;", 300, 950);
+  text("--Click to play, stop, check the frames forward or backward and select the speed;", 350, 1010);
+  text("--Press CONTROL to reset the demonstration;", 350, 1035);
 
 
 
