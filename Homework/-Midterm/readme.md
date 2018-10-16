@@ -17,3 +17,6 @@ People studying or interested in Traditional Chinese Architecture.
 
 ### Where to display:
 Maybe beside a video tutorial about the structure of Traditional Chinese Architecture.
+
+
+![layout](https://github.com/yuanfang313/CIM640_Creative-Coding/blob/master/Homework/-Midterm/layout.png)
