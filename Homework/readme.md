@@ -1,7 +1,7 @@
 # CIM640 - Creative Coding - Fall - 2018
 
 ## [Homework](/Homework)
-
+* [-Final Project](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-Final Project_1112/)
 * [-Midterm](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-Midterm/)
 * [-MyCharacter_week5](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-MyCharacter_week5/)
 * [-MyCharacter](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-MyCharacter/)
