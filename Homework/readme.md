@@ -2,7 +2,7 @@
 
 ## [Homework](/Homework)
 
-* [-Final Project](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-Final Project_1112/)
+* [-Final Project](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-FinalProject_1112/)
 * [-Midterm](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-Midterm/)
 * [-MyCharacter_week5](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-MyCharacter_week5/)
 * [-MyCharacter](https://yuanfang313.github.io/CIM640_Creative-Coding/Homework/-MyCharacter/)
