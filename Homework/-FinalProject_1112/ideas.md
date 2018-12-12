@@ -29,8 +29,6 @@ In fact, they are in the same world, while the former is in the macroscale and t
 
 
 
-
-
 ## If you have an idea or concept, document 3 different experiences.
 It is an experiment of making connection between Images and Sounds.
 
@@ -46,14 +44,15 @@ Also if I change the input to the microphone, it might become a game that powere
 
 In terms of enabling users to create their imaginary projects in an intuitive way, I think these three products are similar.
 
-Alice(https://www.alice.org/)
-Scretch(https://scratch.mit.edu/)
-P5(https://p5js.org/zh-Hans/)
+* [Alice](https://www.alice.org/)
+* [Scretch](https://scratch.mit.edu/)
+* [P5](https://p5js.org/zh-Hans/)
 
 When you come up with ideas, answer these questions:
 
-Why are you making this project? What is your motivation?
-What are your inputs?
-What are your outputs?
-Who is the target audience for your project?
-Where will your project be displayed?
+### Why are you making this project? What is your motivation?
+
+### What are your inputs?
+### What are your outputs?
+### Who is the target audience for your project?
+### Where will your project be displayed?
