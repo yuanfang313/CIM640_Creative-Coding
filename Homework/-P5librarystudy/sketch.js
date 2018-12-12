@@ -42,6 +42,15 @@ text("A", 130, 90);
 text("B", 280, 90);
 text("C", 430, 90);
 
+textSize(35);
+text("Let's' learn Morse Code!", 750, 80);
+textSize(25);
+text("Introduction:", 550, 120);
+textSize(15);
+text("Click the letters to see their images of Morse Code, and listen to their sounds at the same time. ", 700, 120);
+
+
+
 
 if(a0 == true ){
   aa();
