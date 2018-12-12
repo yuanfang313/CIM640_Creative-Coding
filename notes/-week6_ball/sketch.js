@@ -1,16 +1,16 @@
 var xPos = 0;
-var yPos = 100;
+var yPos = 250;
 var ballSize = 20;
 
 var trigger = false;
-var speed = 5;
+var speed = 10;
 
 var trigger2;
 
 function setup(){
   createCanvas(500, 500);
 
-  xPos = width/2;
+  // xPos = width/2;
 
 }
 

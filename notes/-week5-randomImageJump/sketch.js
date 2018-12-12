@@ -3,6 +3,8 @@ var selection, textInput, submitButton;
 
 var numberOfImages = 0;
 
+
+
 function preload(){
   sun = loadImage('assets/sun.png');
   moon = loadImage('assets/moon.png');
@@ -10,7 +12,7 @@ function preload(){
 
 function setup() {
 
-createCanvas(400,400);
+createCanvas(1000,400);
 
 //selection process;
 selection = createSelect();
@@ -19,12 +21,15 @@ selection. position(10, 10);
 selection.option("sun");
 selection.option("moon");
 selection.changed(function(){
-//console.log(selection.value());
+
+// //if I want "random" color of background, which means it changes to different color every time;
+   background("red");
+// console.log(selection.value());
 });
 
 
 //textInput;
-textInput = createInput("# of Images");
+textInput = createInput();
 textInput.position(10, 30);
 
 
@@ -35,17 +40,13 @@ submitButton.position(10,50);
 submitButton.mousePressed(function(){
 //textInput
   numberOfImages = textInput.value();
-//console.log(numberOfImages);
-//selection
+// console.log(numberOfImages);
+// selection
   if(selection.value() == "sun"){
     curImage = sun;
   } else if(selection.value() == "moon"){
     curImage = moon;
   }
-
-
-
-curImage = sun;
 
 });
 
@@ -53,13 +54,13 @@ curImage = sun;
 
 function draw() {
 
-  frameRate(5);
-background(255);
+  frameRate(1);
+background(205);
 
 for(var i = 0; i < numberOfImages; i++){
   //i++ means i=i+1
  //console.log(i);
-image(curImage, random(width), random(height), curImage.width/random(1,5), curImage.height/random(1,5));
+image(curImage, random(width), random(height), curImage.width/random(1,5), curImage.height/random(1,2));
 
 }
 
