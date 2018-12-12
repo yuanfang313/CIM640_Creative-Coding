@@ -43,7 +43,7 @@ text("B", 280, 90);
 text("C", 430, 90);
 
 textSize(35);
-text("Let's' learn Morse Code!", 750, 80);
+text("Let's'learn Morse Code!", 750, 80);
 textSize(25);
 text("Introduction:", 550, 120);
 textSize(15);
