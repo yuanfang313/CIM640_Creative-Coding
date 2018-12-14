@@ -29,7 +29,8 @@ In fact, they are in the same world, while the former is in the macroscale and t
 
 
 
-## If you have an idea or concept, document 3 different experiences.
+# Final Project__Visualize Music
+
 It is an experiment of making connection between Images and Sounds.
 
 01__It can be a tool that users can install the music they like in and making dynamic images. Users can create videos by editing the elements of the music. 
@@ -39,16 +40,6 @@ It is an experiment of making connection between Images and Sounds.
 I expect that users can edit the images independently without losing the connection with the sounds that every user will have an unique video of their own based on their own interpretation of the music.
 
 03__Also if I change the input to the microphone, it might become a game that powered by the sound made by players in the real world.
-
-## Find and Link 3 examples of similar projects or projects that influence your project.
-
-In terms of enabling users to create their imaginary projects in an intuitive way, I think these three products are similar.
-
-* [Alice](https://www.alice.org/)
-* [Scretch](https://scratch.mit.edu/)
-* [P5](https://p5js.org/zh-Hans/)
-
-When you come up with ideas, answer these questions:
 
 ### Why are you making this project? What is your motivation?
 I want to explore that by making new meaningful connections among elements of different medias, during which process can it generate new meanings?
@@ -68,6 +59,14 @@ The visitors in the exhibition;
 ### Where will your project be displayed?
 It can be an app, that installed in the smartphoes. We can even build up an online community based on it.
 An exhibition. 
+
+### Find and Link 3 examples of similar projects or projects that influence your project.
+
+In terms of enabling users to create their imaginary projects in an intuitive way, I think these three products are similar.
+
+* [Alice](https://www.alice.org/)
+* [Scretch](https://scratch.mit.edu/)
+* [P5](https://p5js.org/zh-Hans/)
 
 
 
